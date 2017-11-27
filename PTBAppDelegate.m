@@ -52,6 +52,8 @@ NSString *AIRLINESHOPVERSION = @"airlineShopVersion";   //航司旗舰店信息�
 
 @implementation PTBAppDelegate
 
+// 测试GitHub
+
 - (YYDiskCache *)diskCache {
     if (!_diskCache) {
         NSString *path = PPString(@"%@/BaseData", kPPDocumentsPath);
